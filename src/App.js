@@ -1,11 +1,6 @@
 
 import "./App.css"
-
-
-function App() {
- 
-
-  
+function App() { 
   return (
   <div>
       <div className="container"> 
@@ -15,9 +10,7 @@ function App() {
           <input type="text" id="input" placeholder="Add Todo"></input>
           <button className="btn1">Add</button>
       </div>
-    </div>
-   
+    </div> 
   )
   }
-
 export default App
