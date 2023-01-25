@@ -5,7 +5,7 @@
   height: 40vh;
   background-color: #eeee;
 }
-#in{
+#input{
  margin-left: 50px;
   width: 60%;
   font-size: large;
@@ -13,17 +13,12 @@
   padding: 15px 15px;
   border-radius: 5px;
 }
-.h{
+.heading{
    margin-left: 50px;
    color: blueviolet;
    padding-top: 5px;
-   
-
 }
-
-
-.btn1 {
-  
+.btn1 { 
   background-color: blueviolet;
   border: none;
   color: white;
@@ -33,7 +28,6 @@
   display: inline-block;
   font-size: 16px;
   margin: 4px 2px;
-  cursor: pointer;
   margin-left: 20px;
   border-radius: 5px;
 }
