@@ -1,12 +1,16 @@
-import logo from './logo.svg';
-import './App.css';
 
-function App() {
+import "./App.css"
+function App() { 
   return (
-    <div className="App">
-     <h1>todo</h1>
-    </div>
-  );
-}
-
-export default App;
+  <div>
+      <div className="container"> 
+      <div className="heading">      
+      <h1>To-Do List App</h1>  
+      </div>
+          <input type="text" id="input" placeholder="Add Todo"></input>
+          <button className="btn1">Add</button>
+      </div>
+    </div> 
+  )
+  }
+export default App
