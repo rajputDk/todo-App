@@ -12,6 +12,11 @@ function App() {
     setUsers([...users,user]);
     setName("")
   };
+  function removeList(id){
+    const newList=[...users];
+    newList.splice(id,1)
+    setUsers(newList)
+  }
   return (
     
   <div>
@@ -21,16 +26,24 @@ function App() {
       </div>
          <input type="text" id="input" placeholder="Add Todo" value={name} onChange={(e)=>setName(e.target.value)} /> 
           <button className="btn1" onClick={addUser}>Add</button>
-        
+         <div className="container2">
+
+         
           <h1 className="head">
+            <div container3>
             {
-              users.map(user=>{
+              users.map((user,i)=>{
+                
                 return(
-                  <h1>{user.name}</h1>
+                  
+                  <h1 key={i}>{user.name}<span className="btn3">Edit</span><span className="btn2" onClick={()=>removeList(i)}>Delete</span></h1>
                 )
-              })   
+              }) 
+              
             }
+            </div>
             </h1>
+            </div>
       </div> 
     </div>  
   )
