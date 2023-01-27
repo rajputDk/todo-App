@@ -2,7 +2,7 @@
 .container{
   margin: 10px auto;
   width: 30%;
-  height: 40vh;
+  height: 100vh;
   background-color: #eeee;
 }
 #input{
@@ -31,5 +31,11 @@
   margin-left: 20px;
   border-radius: 5px;
 }
+.head{
+  text-align: center;
+  font-size: small;
+}
+
+
 
 
